@@ -1,0 +1,15 @@
+# Local environment configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Uploaded media should be deployed separately; keep the directory in Git
+uploads/*
+!uploads/.gitkeep
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
