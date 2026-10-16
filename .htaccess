@@ -1,8 +1,1 @@
-RewriteEngine On
-DirectoryIndex pages/index.php index.html
-
-# Remove .php extension from URL
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.*)$ $1.php [L]
+DirectoryIndex index.html
