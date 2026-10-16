@@ -253,8 +253,19 @@ section.bg-light {
     display: block;
     width: 100%;
     aspect-ratio: 16 / 10;
+    height: 15rem;
     border-radius: var(--lystra-radius);
     object-fit: cover;
+}
+
+.field-assessment-photo {
+    aspect-ratio: 3 / 4;
+    height: auto;
+    object-position: center;
+}
+
+.project-gallery .story-photo {
+    height: 13rem;
 }
 
 .impact-photo {
