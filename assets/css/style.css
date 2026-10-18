@@ -193,7 +193,7 @@ body > header.bg-dark {
 
 .home-hero {
     isolation: isolate;
-    min-height: clamp(30rem, 66vh, 42rem) !important;
+    min-height: clamp(45rem, 99vh, 63rem) !important;
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
     background-color: #18291f;
@@ -264,8 +264,8 @@ body > header.bg-success {
 }
 
 body > header.bg-success .container {
-    padding-top: 2.5rem !important;
-    padding-bottom: 2.5rem !important;
+    padding-top: 5.9rem !important;
+    padding-bottom: 5.9rem !important;
 }
 
 body > header.bg-success h1 {
@@ -624,7 +624,7 @@ footer a:hover {
     }
 
     .home-hero {
-        min-height: 0 !important;
+        min-height: 49.5rem !important;
     }
 
     .row.g-5 {
@@ -658,8 +658,8 @@ footer a:hover {
     }
 
     body > header.bg-success .container {
-        padding-top: 1.75rem !important;
-        padding-bottom: 1.75rem !important;
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
     }
 
     .card .card-body {
