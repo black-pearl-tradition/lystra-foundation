@@ -253,7 +253,8 @@ section.bg-light {
     display: block;
     width: 100%;
     aspect-ratio: 16 / 10;
-    height: 15rem;
+    height: 20rem;
+    margin-inline: auto;
     border-radius: var(--lystra-radius);
     object-fit: cover;
 }
@@ -265,13 +266,18 @@ section.bg-light {
 }
 
 .project-gallery .story-photo {
-    height: 13rem;
+    height: 20rem;
+}
+
+.story-photo + figcaption {
+    text-align: center;
 }
 
 .impact-photo {
     display: block;
     width: 100%;
-    height: clamp(20rem, 38vw, 28rem);
+    height: clamp(24rem, 45vw, 32rem);
+    margin-inline: auto;
     border-radius: var(--lystra-radius);
     object-fit: cover;
     object-position: center 34%;
