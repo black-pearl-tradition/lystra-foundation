@@ -1,3 +1,6 @@
+/* ==========================================================
+   Theme tokens and base page setup
+   ========================================================== */
 :root {
     --bs-success: #315d49;
     --bs-success-rgb: 49, 93, 73;
@@ -67,10 +70,13 @@ h6 {
     color: var(--lystra-muted) !important;
 }
 
+/* ==========================================================
+   Header navigation and branding
+   ========================================================== */
 .navbar {
     border-bottom: 1px solid rgba(194, 163, 108, 0.28);
-    padding-top: 0.85rem;
-    padding-bottom: 0.85rem;
+    padding-top: 2.15rem;
+    padding-bottom: 2.15rem;
     background: rgba(255, 254, 250, 0.97) !important;
     box-shadow: 0 0.35rem 1.5rem rgba(28, 43, 34, 0.055) !important;
     backdrop-filter: blur(14px);
@@ -141,6 +147,9 @@ h6 {
     box-shadow: 0 0 0 0.2rem rgba(40, 122, 75, 0.14);
 }
 
+/* ==========================================================
+   Main hero banner layout
+   ========================================================== */
 .navbar-nav .btn {
     display: inline-flex;
     min-height: 2.65rem;
@@ -178,6 +187,12 @@ h6 {
     box-shadow: 0 0.55rem 1.2rem rgba(28, 43, 34, 0.15);
 }
 
+/* ==========================================================
+   Hero banners and section headings
+   ========================================================== */
+/* ==========================================================
+   Standard page header banners
+   ========================================================== */
 body > header.bg-dark,
 body > header.bg-success {
     position: relative;
@@ -191,6 +206,9 @@ body > header.bg-dark {
     background-position: center;
 }
 
+/* ==========================================================
+   Homepage hero header
+   ========================================================== */
 .home-hero {
     isolation: isolate;
     min-height: clamp(45rem, 99vh, 63rem) !important;
@@ -297,6 +315,9 @@ section h2 {
     font-weight: 600;
 }
 
+/* ==========================================================
+   Cards, program sections, and gallery layout
+   ========================================================== */
 section.py-5 {
     padding-block: clamp(3.25rem, 6vw, 5rem) !important;
 }
@@ -499,6 +520,9 @@ section.bg-success .lead {
     text-transform: uppercase;
 }
 
+/* ==========================================================
+   Forms, footer, and responsive behavior
+   ========================================================== */
 .form-label {
     color: var(--lystra-ink);
     font-weight: 600;
